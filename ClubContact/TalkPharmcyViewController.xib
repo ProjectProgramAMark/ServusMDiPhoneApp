@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TalkPharmcyViewController">
+            <connections>
+                <outlet property="bottomTab" destination="6n3-Tb-3fs" id="tg4-Ss-NVF"/>
+                <outlet property="conditionTable" destination="afj-U2-bf6" id="w61-GF-nfL"/>
+                <outlet property="menuButton" destination="aCd-h5-DQ8" id="rg3-eF-HKx"/>
+                <outlet property="searchCondition" destination="zcv-Pm-rfa" id="WW9-B0-SgM"/>
+                <outlet property="view" destination="iN0-l3-epB" id="HcY-O2-O5K"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="afj-U2-bf6">
+                    <rect key="frame" x="0.0" y="44" width="320" height="475"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="umb-w5-Sa8"/>
+                        <outlet property="delegate" destination="-1" id="bPr-Y5-egB"/>
+                    </connections>
+                </tableView>
+                <searchBar contentMode="redraw" id="zcv-Pm-rfa">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="9NI-xi-gxp"/>
+                    </connections>
+                </searchBar>
+                <tabBar contentMode="scaleToFill" id="6n3-Tb-3fs">
+                    <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <items>
+                        <tabBarItem title="Dashboard" image="speed11" id="Pfb-sO-AHM"/>
+                        <tabBarItem title="Conditions" image="first18" id="l56-em-99f"/>
+                        <tabBarItem title="Allergies" image="brain11" id="lbc-Qd-7fo"/>
+                        <tabBarItem title="Pharmacy" image="hospital24" id="lzL-eR-qhl"/>
+                        <tabBarItem title="Specialist" image="cross28" id="RG6-DS-LZ1"/>
+                        <tabBarItem title="Doctors" image="md1" id="koY-0R-3R1"/>
+                    </items>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="7e2-X1-VEW"/>
+                    </connections>
+                </tabBar>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.63999998569488525" id="crJ-fv-YCH">
+                    <rect key="frame" x="85" y="505" width="150" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                </progressView>
+            </subviews>
+            <color key="backgroundColor" red="0.95294117649999999" green="0.95294117649999999" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="490" y="353"/>
+        </view>
+        <view contentMode="scaleToFill" id="aCd-h5-DQ8">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="left222" id="VjA-Y3-APw">
+                    <rect key="frame" x="-7" y="8" width="30" height="35"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" id="CZZ-a8-IEZ">
+                    <rect key="frame" x="-36" y="-22" width="122" height="93"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="goBackToChose:" destination="-1" eventType="touchUpInside" id="GX5-6Z-FgT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="228" y="324"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="brain11" width="32" height="32"/>
+        <image name="cross28" width="32" height="32"/>
+        <image name="first18" width="32" height="32"/>
+        <image name="hospital24" width="32" height="32"/>
+        <image name="left222" width="128" height="128"/>
+        <image name="md1" width="32" height="32"/>
+        <image name="speed11" width="32" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,25 @@
+//
+//  ClubContact-Prefix.pch
+//  ClubContact
+//
+//  Created by Duong Nguyen on 2/27/15.
+//  Copyright (c) 2015 askpi. All rights reserved.
+//
+
+#ifndef ClubContact_ClubContact_Prefix_pch
+#define ClubContact_ClubContact_Prefix_pch
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import <CoreData/CoreData.h>
+    #define MR_SHORTHAND
+    #import "CoreData+MagicalRecord.h"
+    #import "Common/Constant.h"
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <Quickblox/Quickblox.h>
+#import <QuickbloxWebRTC/QuickbloxWebRTC.h>
+#endif
+
+#endif
