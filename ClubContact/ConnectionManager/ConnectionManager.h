@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Quickblox/QBChat.h>
+#import <Quickblox/QBUUser.h>
 
 @interface ConnectionManager : NSObject {
     NSArray *users;

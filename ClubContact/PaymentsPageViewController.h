@@ -10,10 +10,10 @@
 #import "BaseViewController.h"
 #import "DashboardCollectionCell.h"
 #import "DashboardCollectionCelliPhone.h"
-#import <Stripe/Stripe.h>
 #import "AFHTTPSessionManager.h"
 #import "TransactionCellTableViewCell.h"
 #import "TransactionsPatientViewController.h"
+#import "Stripe.h"
 
 @interface PaymentsPageViewController : BaseViewController <UICollectionViewDelegate, UICollectionViewDataSource, STPCheckoutViewControllerDelegate, NSURLConnectionDelegate> {
     IBOutlet UICollectionView *menuCollection;

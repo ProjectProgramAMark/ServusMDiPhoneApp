@@ -1,0 +1,10 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/QuickBlox" "${PODS_ROOT}/Quickblox-WebRTC"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = /usr/include/libxml2 $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/QuickBlox" "${PODS_ROOT}/Headers/Public/Quickblox-WebRTC" "${PODS_ROOT}/Headers/Public/Stripe"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Stripe"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/QuickBlox" -isystem "${PODS_ROOT}/Headers/Public/Quickblox-WebRTC" -isystem "${PODS_ROOT}/Headers/Public/Stripe"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Stripe" -l"c++" -l"icucore" -l"resolv" -l"stdc++" -l"xml2" -l"z" -framework "AVFoundation" -framework "Accelerate" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreData" -framework "CoreGraphics" -framework "CoreLocation" -framework "CoreMedia" -framework "CoreVideo" -framework "Foundation" -framework "GLKit" -framework "MobileCoreServices" -framework "Quickblox" -framework "QuickbloxWebRTC" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -framework "VideoToolbox" -weak_framework "AddressBook" -weak_framework "PassKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

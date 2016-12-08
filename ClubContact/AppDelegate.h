@@ -12,6 +12,8 @@
 #import <Stripe/Stripe.h>
 #import "Flurry.h"
 #import "AGPushNoteView.h"
+#import <Quickblox/QBUUser.h>
+
 //#import "DashboardV2ViewController.h"
 @class DashboardV2ViewController;
 @class RearViewController;

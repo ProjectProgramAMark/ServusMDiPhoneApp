@@ -163,14 +163,18 @@ const NSTimeInterval kChatPresenceTimeInterval = 45;
 
 - (void)chatDidConnect {
     
-    [[QBChat instance] sendPresence];
+    /* MARK'S CODE CHANGES */
+    // [[QBChat instance] sendPresence];
+    /* END MARK'S CODE CHANGES */
     __weak __typeof(self)weakSelf = self;
     
     self.presenceTimer = [[QBRTCTimer alloc] initWithTimeInterval:kChatPresenceTimeInterval
                                                            repeat:YES
                                                             queue:dispatch_get_main_queue()
                                                        completion:^{
-                                                           [[QBChat instance] sendPresence];
+                                                           /* MARK'S CODE CHANGES */
+                                                           // [[QBChat instance] sendPresence];
+                                                           /* END MARK'S CODE CHANGES */
                                                            
                                                        } expiration:^{
                                                            
@@ -200,8 +204,9 @@ const NSTimeInterval kChatPresenceTimeInterval = 45;
 #pragma mark - Send chat presence
 
 - (void)sendChatPresence:(NSTimer *)timer {
-    
-    [[QBChat instance] sendPresence];
+    /* MARK'S CODE CHANGES */
+    // [[QBChat instance] sendPresence];
+    /* END MARK'S CODE CHANGES */
 }
 
 #pragma mark - Public

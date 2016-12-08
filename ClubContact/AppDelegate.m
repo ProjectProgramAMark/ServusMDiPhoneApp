@@ -10,6 +10,8 @@
 #import "DeviceInfo.h"
 #import "DashboardV2ViewController.h"
 #import "RearViewController.h"
+@import Quickblox;
+
 
 @interface AppDelegate ()
 
@@ -47,11 +49,18 @@ NSString *const kQBAccountKey = @"yDZov8BxcCj43zXJ4MT4";
     [Stripe setDefaultPublishableKey:@"pk_live_ya8lfMrJV4hOlY95n42e7frH"];
     
     //Quickblox preferences
-    [QBApplication sharedApplication].applicationId = kQBApplicationID;
+    /* MARK'S CODE CHANGES */
+    // [QBSettings setApplicationID:] = kQBApplicationID;
+    [QBSettings setApplicationID:kQBApplicationID];
     
+    /* MARK'S CODE CHANGES */
+    // [QBConnection registerServiceKey:kQBRegisterServiceKey];
+    [QBSettings setAuthKey:kQBRegisterServiceKey];
+    // [QBConnection registerServiceSecret:kQBRegisterServiceSecret];
+    [QBSettings setAuthSecret:kQBRegisterServiceSecret];
     
-    [QBConnection registerServiceKey:kQBRegisterServiceKey];
-    [QBConnection registerServiceSecret:kQBRegisterServiceSecret];
+    /* END MARK'S CODE CHANGES */
+    
     [QBSettings setAccountKey:kQBAccountKey];
     [QBSettings setLogLevel:QBLogLevelErrors];
     

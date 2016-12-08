@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		166D1D491DEB300600B24D8A /* AGPushNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 166D1D471DEB300600B24D8A /* AGPushNoteView.m */; };
+		166D1D4A1DEB300600B24D8A /* AGPushNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 166D1D471DEB300600B24D8A /* AGPushNoteView.m */; };
+		166D1D4B1DEB300600B24D8A /* AGPushNoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 166D1D481DEB300600B24D8A /* AGPushNoteView.xib */; };
+		166D1D4C1DEB300600B24D8A /* AGPushNoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 166D1D481DEB300600B24D8A /* AGPushNoteView.xib */; };
+		16F7E11F1DF4F915007EB860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F7E11E1DF4F915007EB860 /* Main.storyboard */; };
+		80028950E26E353E7E119618 /* libPods-ClubContactTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5966C5AAE7779949F9447350 /* libPods-ClubContactTests.a */; };
 		D02525A51AA02A4200B5FDCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D02525A41AA02A4200B5FDCB /* main.m */; };
 		D02525A81AA02A4200B5FDCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D02525A71AA02A4200B5FDCB /* AppDelegate.m */; };
 		D02525AA1AA02A4200B5FDCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02525A91AA02A4200B5FDCB /* Images.xcassets */; };
@@ -77,7 +83,7 @@
 		D025270C1AA02ABA00B5FDCB /* RegisterPerInforViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02526AD1AA02ABA00B5FDCB /* RegisterPerInforViewController.m */; };
 		D025270F1AA02B0900B5FDCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D025270E1AA02B0900B5FDCB /* UIKit.framework */; };
 		D02527111AA02B1000B5FDCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02527101AA02B1000B5FDCB /* Foundation.framework */; };
-		D02527131AA02B5300B5FDCB /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02527121AA02B5300B5FDCB /* iPad.storyboard */; };
+		D02527131AA02B5300B5FDCB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D02527121AA02B5300B5FDCB /* Main_iPad.storyboard */; };
 		D02527161AA02CBF00B5FDCB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02527151AA02CBF00B5FDCB /* CoreData.framework */; };
 		D025271A1AA02D7200B5FDCB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02527191AA02D7200B5FDCB /* LoginViewController.m */; };
 		D02527211AA0603200B5FDCB /* SignatureView.m in Sources */ = {isa = PBXBuildFile; fileRef = D02527201AA0603200B5FDCB /* SignatureView.m */; };
@@ -167,6 +173,7 @@
 		EAB652221AB15BAF0032B078 /* PatientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB652211AB15BAF0032B078 /* PatientDetailViewController.m */; };
 		EAB652251AB173E80032B078 /* AboutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB652241AB173E80032B078 /* AboutTableViewCell.m */; };
 		EAB652281AB18F610032B078 /* DeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB652271AB18F610032B078 /* DeviceInfo.m */; };
+		F52DF462AABF7E1B438394B5 /* libPods-ClubContact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC75433021782AF54C52EA0F /* libPods-ClubContact.a */; };
 		F6010B9C1BD3A0F30057FE5E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6010B9B1BD3A0F30057FE5E /* Security.framework */; };
 		F6010BA21BD3A5BE0057FE5E /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = F6010B9E1BD3A5BE0057FE5E /* Empty.m */; };
 		F6010BA31BD3A5BE0057FE5E /* libFlurry_7.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6010BA11BD3A5BE0057FE5E /* libFlurry_7.1.0.a */; };
@@ -426,8 +433,6 @@
 		F6203A8E1BBD3DD9006B2CC3 /* EyeExamImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F6203A8D1BBD3DD9006B2CC3 /* EyeExamImageViewController.m */; };
 		F629F6BB1C5CAD100058A1DB /* SpecialitySelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F629F6B91C5CAD100058A1DB /* SpecialitySelectorViewController.m */; };
 		F629F6BC1C5CAD100058A1DB /* SpecialitySelectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F629F6BA1C5CAD100058A1DB /* SpecialitySelectorViewController.xib */; };
-		F629F6C11C5CC1140058A1DB /* AGPushNoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = F629F6BF1C5CC1140058A1DB /* AGPushNoteView.m */; };
-		F629F6C21C5CC1140058A1DB /* AGPushNoteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F629F6C01C5CC1140058A1DB /* AGPushNoteView.xib */; };
 		F638C15E1AFE5A2F005C2A2F /* DrugSearchAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F638C15D1AFE5A2F005C2A2F /* DrugSearchAPIClient.m */; };
 		F638C1611AFE5F3D005C2A2F /* Drug.m in Sources */ = {isa = PBXBuildFile; fileRef = F638C1601AFE5F3D005C2A2F /* Drug.m */; };
 		F638C1641AFE91EE005C2A2F /* Allergen.m in Sources */ = {isa = PBXBuildFile; fileRef = F638C1631AFE91EE005C2A2F /* Allergen.m */; };
@@ -550,7 +555,6 @@
 		F68A13291BC8215000CC7D60 /* BankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = F68A13281BC8215000CC7D60 /* BankDetails.m */; };
 		F68A132C1BC840B200CC7D60 /* SendPatientRecordsDoctor.m in Sources */ = {isa = PBXBuildFile; fileRef = F68A132B1BC840B200CC7D60 /* SendPatientRecordsDoctor.m */; };
 		F68A132F1BD13B2900CC7D60 /* SubscriptionPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F68A132E1BD13B2900CC7D60 /* SubscriptionPlanViewController.m */; };
-		F68AE02D1B799EC000F4D18F /* Stripe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F68AE02C1B799EC000F4D18F /* Stripe.framework */; };
 		F68AE0301B7B4C3900F4D18F /* TermsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F68AE02F1B7B4C3900F4D18F /* TermsViewController.m */; };
 		F68B19C61B114883006C81DC /* MSGConsultationGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F68B19C41B114883006C81DC /* MSGConsultationGridCell.m */; };
 		F68B19C71B114883006C81DC /* MSGConsultationGridCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F68B19C51B114883006C81DC /* MSGConsultationGridCell.xib */; };
@@ -737,6 +741,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		063CDA3384D846A936C6AF4E /* Pods-ClubContactTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubContactTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubContactTests/Pods-ClubContactTests.release.xcconfig"; sourceTree = "<group>"; };
+		099B0E4FA6145591073635E9 /* Pods-ClubContact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubContact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClubContact/Pods-ClubContact.debug.xcconfig"; sourceTree = "<group>"; };
+		166D1D461DEB300600B24D8A /* AGPushNoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPushNoteView.h; sourceTree = "<group>"; };
+		166D1D471DEB300600B24D8A /* AGPushNoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPushNoteView.m; sourceTree = "<group>"; };
+		166D1D481DEB300600B24D8A /* AGPushNoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGPushNoteView.xib; sourceTree = "<group>"; };
+		16F7E11E1DF4F915007EB860 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5966C5AAE7779949F9447350 /* libPods-ClubContactTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClubContactTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63C18A9305CD7F7733BFF0ED /* Pods-ClubContact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubContact.release.xcconfig"; path = "Pods/Target Support Files/Pods-ClubContact/Pods-ClubContact.release.xcconfig"; sourceTree = "<group>"; };
+		CC75433021782AF54C52EA0F /* libPods-ClubContact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ClubContact.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D025259F1AA02A4200B5FDCB /* ClubContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClubContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02525A31AA02A4200B5FDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D02525A41AA02A4200B5FDCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -872,7 +885,7 @@
 		D02526AD1AA02ABA00B5FDCB /* RegisterPerInforViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterPerInforViewController.m; sourceTree = "<group>"; };
 		D025270E1AA02B0900B5FDCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D02527101AA02B1000B5FDCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D02527121AA02B5300B5FDCB /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
+		D02527121AA02B5300B5FDCB /* Main_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPad.storyboard; sourceTree = "<group>"; };
 		D02527141AA02C6400B5FDCB /* ClubContact-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ClubContact-Prefix.pch"; sourceTree = "<group>"; };
 		D02527151AA02CBF00B5FDCB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D02527181AA02D7200B5FDCB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
@@ -1433,9 +1446,6 @@
 		F629F6B81C5CAD100058A1DB /* SpecialitySelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialitySelectorViewController.h; sourceTree = "<group>"; };
 		F629F6B91C5CAD100058A1DB /* SpecialitySelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialitySelectorViewController.m; sourceTree = "<group>"; };
 		F629F6BA1C5CAD100058A1DB /* SpecialitySelectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecialitySelectorViewController.xib; sourceTree = "<group>"; };
-		F629F6BE1C5CC1140058A1DB /* AGPushNoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGPushNoteView.h; sourceTree = "<group>"; };
-		F629F6BF1C5CC1140058A1DB /* AGPushNoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGPushNoteView.m; sourceTree = "<group>"; };
-		F629F6C01C5CC1140058A1DB /* AGPushNoteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGPushNoteView.xib; sourceTree = "<group>"; };
 		F638C15C1AFE5A2F005C2A2F /* DrugSearchAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugSearchAPIClient.h; sourceTree = "<group>"; };
 		F638C15D1AFE5A2F005C2A2F /* DrugSearchAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugSearchAPIClient.m; sourceTree = "<group>"; };
 		F638C15F1AFE5F3D005C2A2F /* Drug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drug.h; sourceTree = "<group>"; };
@@ -1916,6 +1926,7 @@
 		F6FD6F7B1B38122200276D80 /* RequestGridCelliPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RequestGridCelliPhone.xib; sourceTree = "<group>"; };
 		F6FD6F7E1B38151D00276D80 /* DocMSGSessioniPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocMSGSessioniPhone.h; sourceTree = "<group>"; };
 		F6FD6F7F1B38151D00276D80 /* DocMSGSessioniPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocMSGSessioniPhone.m; sourceTree = "<group>"; };
+		FB567D52B76E7A8C54DAF198 /* Pods-ClubContactTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClubContactTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClubContactTests/Pods-ClubContactTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1928,7 +1939,6 @@
 				F696E3451C538DA2003E75C2 /* Quickblox.framework in Frameworks */,
 				F696E3461C538DA2003E75C2 /* QuickbloxWebRTC.framework in Frameworks */,
 				F6010B9C1BD3A0F30057FE5E /* Security.framework in Frameworks */,
-				F68AE02D1B799EC000F4D18F /* Stripe.framework in Frameworks */,
 				F6010BA31BD3A5BE0057FE5E /* libFlurry_7.1.0.a in Frameworks */,
 				F60477671B6C01760078B58A /* AVFoundation.framework in Frameworks */,
 				F60477311B6969620078B58A /* libxml2.dylib in Frameworks */,
@@ -1947,6 +1957,7 @@
 				D02527161AA02CBF00B5FDCB /* CoreData.framework in Frameworks */,
 				D02527111AA02B1000B5FDCB /* Foundation.framework in Frameworks */,
 				D025270F1AA02B0900B5FDCB /* UIKit.framework in Frameworks */,
+				F52DF462AABF7E1B438394B5 /* libPods-ClubContact.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1954,19 +1965,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80028950E26E353E7E119618 /* libPods-ClubContactTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FA6AAB3A1CB8281ED3AC24E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				099B0E4FA6145591073635E9 /* Pods-ClubContact.debug.xcconfig */,
+				63C18A9305CD7F7733BFF0ED /* Pods-ClubContact.release.xcconfig */,
+				FB567D52B76E7A8C54DAF198 /* Pods-ClubContactTests.debug.xcconfig */,
+				063CDA3384D846A936C6AF4E /* Pods-ClubContactTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		166D1D451DEB300600B24D8A /* AGPushNote */ = {
+			isa = PBXGroup;
+			children = (
+				166D1D461DEB300600B24D8A /* AGPushNoteView.h */,
+				166D1D471DEB300600B24D8A /* AGPushNoteView.m */,
+				166D1D481DEB300600B24D8A /* AGPushNoteView.xib */,
+			);
+			path = AGPushNote;
+			sourceTree = "<group>";
+		};
 		D02525961AA02A4100B5FDCB = {
 			isa = PBXGroup;
 			children = (
+				166D1D451DEB300600B24D8A /* AGPushNote */,
 				D02525A11AA02A4200B5FDCB /* ClubContact */,
 				D025270D1AA02AF900B5FDCB /* Frameworks */,
 				D02525B51AA02A4200B5FDCB /* ClubContactTests */,
 				D02525A01AA02A4200B5FDCB /* Products */,
+				0FA6AAB3A1CB8281ED3AC24E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2112,7 +2147,6 @@
 		D02525CD1AA02ABA00B5FDCB /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				F629F6BD1C5CC1140058A1DB /* AGPushNote */,
 				F603DC211C2C513300C7310B /* SWTCell */,
 				F6A10D0C1BF4149F0046075C /* PickerCells */,
 				F6A10D061BF40EC30046075C /* HSDatePickerViewController */,
@@ -2581,7 +2615,8 @@
 		D02526AF1AA02ABA00B5FDCB /* Storyboard */ = {
 			isa = PBXGroup;
 			children = (
-				D02527121AA02B5300B5FDCB /* iPad.storyboard */,
+				D02527121AA02B5300B5FDCB /* Main_iPad.storyboard */,
+				16F7E11E1DF4F915007EB860 /* Main.storyboard */,
 			);
 			path = Storyboard;
 			sourceTree = "<group>";
@@ -2613,6 +2648,8 @@
 				D02527151AA02CBF00B5FDCB /* CoreData.framework */,
 				D02527101AA02B1000B5FDCB /* Foundation.framework */,
 				D025270E1AA02B0900B5FDCB /* UIKit.framework */,
+				CC75433021782AF54C52EA0F /* libPods-ClubContact.a */,
+				5966C5AAE7779949F9447350 /* libPods-ClubContactTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3642,17 +3679,6 @@
 			name = Concierge;
 			sourceTree = "<group>";
 		};
-		F629F6BD1C5CC1140058A1DB /* AGPushNote */ = {
-			isa = PBXGroup;
-			children = (
-				F629F6BE1C5CC1140058A1DB /* AGPushNoteView.h */,
-				F629F6BF1C5CC1140058A1DB /* AGPushNoteView.m */,
-				F629F6C01C5CC1140058A1DB /* AGPushNoteView.xib */,
-			);
-			name = AGPushNote;
-			path = "../../../../../Downloads/AGPushNote-master/AGPushNote";
-			sourceTree = "<group>";
-		};
 		F64C44E61B719528006FD150 /* Notifications */ = {
 			isa = PBXGroup;
 			children = (
@@ -4290,9 +4316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D02525BC1AA02A4200B5FDCB /* Build configuration list for PBXNativeTarget "ClubContact" */;
 			buildPhases = (
+				0FDE408AB8A49E5A1322EF4D /* [CP] Check Pods Manifest.lock */,
 				D025259B1AA02A4200B5FDCB /* Sources */,
 				D025259C1AA02A4200B5FDCB /* Frameworks */,
 				D025259D1AA02A4200B5FDCB /* Resources */,
+				248F7A9F9B985C55FA002C3A /* [CP] Embed Pods Frameworks */,
+				6C6CF2416A0659655E2BC889 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -4307,9 +4336,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D02525BF1AA02A4200B5FDCB /* Build configuration list for PBXNativeTarget "ClubContactTests" */;
 			buildPhases = (
+				57CF20053BDC6B07729CE252 /* [CP] Check Pods Manifest.lock */,
 				D02525AE1AA02A4200B5FDCB /* Sources */,
 				D02525AF1AA02A4200B5FDCB /* Frameworks */,
 				D02525B01AA02A4200B5FDCB /* Resources */,
+				49A05D84F1F8E5B8EF1B7E70 /* [CP] Embed Pods Frameworks */,
+				ABAF74B15DBB7F1541899FC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -4327,12 +4359,13 @@
 		D02525971AA02A4100B5FDCB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = askpi;
 				TargetAttributes = {
 					D025259E1AA02A4200B5FDCB = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = FY22HWQ3EF;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -4341,6 +4374,7 @@
 					};
 					D02525B11AA02A4200B5FDCB = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = FY22HWQ3EF;
 						TestTargetID = D025259E1AA02A4200B5FDCB;
 					};
 				};
@@ -4387,7 +4421,6 @@
 				F6F57E7B1C460E8A000E6B68 /* ShortQuestViewController.xib in Resources */,
 				F67733A51C5129F6007B22BB /* MSGPatientProfileViewController.xib in Resources */,
 				F693EEA11B2BCF1100B389FB /* doctorsm.png in Resources */,
-				F629F6C21C5CC1140058A1DB /* AGPushNoteView.xib in Resources */,
 				F60589DE1BEFB676007022B5 /* MyriadPro-Regular.otf in Resources */,
 				F603DCB91C3A565000C7310B /* CalendarNoEventTableViewCell.xib in Resources */,
 				F61A3A7B1B2FEBA20057A673 /* Images-2.xcassets in Resources */,
@@ -4406,6 +4439,7 @@
 				F60476091B6331A80078B58A /* DashboardCollectionCell.xib in Resources */,
 				F604768D1B6523DD0078B58A /* shareiconv2.png in Resources */,
 				F666F4101C56333100BFEE3D /* OpponentCollectionViewCell2.xib in Resources */,
+				166D1D4B1DEB300600B24D8A /* AGPushNoteView.xib in Resources */,
 				F6DD133D1B02B1D300C40F33 /* background3.jpg in Resources */,
 				F6DD134F1B039AB400C40F33 /* doctorprofile.png in Resources */,
 				F603DCAD1C3A452200C7310B /* SendPatientRecordsDoctor.xib in Resources */,
@@ -4458,6 +4492,7 @@
 				F603DC431C2E861000C7310B /* MessagePatientsList.xib in Resources */,
 				F66BADF61C4530F300FCC022 /* CalendarPatientViewController.xib in Resources */,
 				F6DD134B1B039A6D00C40F33 /* appointments.png in Resources */,
+				16F7E11F1DF4F915007EB860 /* Main.storyboard in Resources */,
 				F629F6BC1C5CAD100058A1DB /* SpecialitySelectorViewController.xib in Resources */,
 				F603DC4E1C3526F500C7310B /* PatientDetailViewController.xib in Resources */,
 				F6DD136C1B03AD5F00C40F33 /* background6.jpg in Resources */,
@@ -4503,7 +4538,7 @@
 				F60475DB1B6237C60078B58A /* users81.png in Resources */,
 				F60476A61B66A5AC0078B58A /* medical-cap-icon.png in Resources */,
 				F6F57EAE1C46751F000E6B68 /* MyProfileConditionsViewController.xib in Resources */,
-				D02527131AA02B5300B5FDCB /* iPad.storyboard in Resources */,
+				D02527131AA02B5300B5FDCB /* Main_iPad.storyboard in Resources */,
 				F60476BC1B67834B0078B58A /* RatingTableViewCell.xib in Resources */,
 				F6BC73281C427E9F00FD46C1 /* EyeExamImageViewController.xib in Resources */,
 				F69FBEA81C731B7B006EF3F6 /* ParentDetailsEditViewController.xib in Resources */,
@@ -4640,10 +4675,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166D1D4C1DEB300600B24D8A /* AGPushNoteView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FDE408AB8A49E5A1322EF4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		248F7A9F9B985C55FA002C3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubContact/Pods-ClubContact-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49A05D84F1F8E5B8EF1B7E70 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubContactTests/Pods-ClubContactTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57CF20053BDC6B07729CE252 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C6CF2416A0659655E2BC889 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubContact/Pods-ClubContact-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAF74B15DBB7F1541899FC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ClubContactTests/Pods-ClubContactTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D025259B1AA02A4200B5FDCB /* Sources */ = {
@@ -4662,6 +4791,7 @@
 				F6DD13331B02997B00C40F33 /* UIViewController+Chameleon.m in Sources */,
 				F603DC331C2C513300C7310B /* SWUtilityButtonView.m in Sources */,
 				F6D9E6AA1B04CEEC00CB5946 /* PatientEdicationAPIClient.m in Sources */,
+				166D1D491DEB300600B24D8A /* AGPushNoteView.m in Sources */,
 				F629F6BB1C5CAD100058A1DB /* SpecialitySelectorViewController.m in Sources */,
 				F6FD6F261B34AF8500276D80 /* MBPolygonView.m in Sources */,
 				F638C1611AFE5F3D005C2A2F /* Drug.m in Sources */,
@@ -4941,7 +5071,6 @@
 				F603DC1F1C2C2FF500C7310B /* PatientListNewViewController.m in Sources */,
 				D02526D51AA02ABA00B5FDCB /* UIColor+FFMoreColors.m in Sources */,
 				D02527B11AA06E7800B5FDCB /* MagicalRecord+Actions.m in Sources */,
-				F629F6C11C5CC1140058A1DB /* AGPushNoteView.m in Sources */,
 				D025270C1AA02ABA00B5FDCB /* RegisterPerInforViewController.m in Sources */,
 				D02526B51AA02ABA00B5FDCB /* FFDayHeaderButton.m in Sources */,
 				EAA83AC11AD1FB0E00F99718 /* IQAudioRecorderController.m in Sources */,
@@ -5085,6 +5214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				166D1D4A1DEB300600B24D8A /* AGPushNoteView.m in Sources */,
 				D02525B91AA02A4200B5FDCB /* ClubContactTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -5113,16 +5243,21 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.fidemllc.flashmed";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.fidemllc.flashmed";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = FY22HWQ3EF;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -5157,16 +5292,20 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Fidem LLC (FY22HWQ3EF)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fidem LLC (FY22HWQ3EF)";
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = FY22HWQ3EF;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -5184,19 +5323,15 @@
 		};
 		D02525BD1AA02A4200B5FDCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099B0E4FA6145591073635E9 /* Pods-ClubContact.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CODE_SIGN_IDENTITY = "Apple Development IOS Push Services: com.fidemllc.flashmed";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development IOS Push Services: com.fidemllc.flashmed";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FY22HWQ3EF;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/kalanajayatilake/Downloads/StripeiOS,
-					"/Users/kalanajayatilake/Downloads/quickblox-ios-sdk-master-2/Framework",
-					/Users/kalanajayatilake/Downloads/StripeiOS,
-					2,
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClubContact/ClubContact-Prefix.pch";
 				INFOPLIST_FILE = ClubContact/Info.plist;
@@ -5206,28 +5341,29 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ClubContact/Flurry",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fidemllc.flashmed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "66892a4e-4e66-4de1-8341-9a5665abcc9c";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		D02525BE1AA02A4200B5FDCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C18A9305CD7F7733BFF0ED /* Pods-ClubContact.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-1";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Fidem LLC (FY22HWQ3EF)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fidem LLC (FY22HWQ3EF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = FY22HWQ3EF;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/kalanajayatilake/Downloads/StripeiOS,
-					"/Users/kalanajayatilake/Downloads/quickblox-ios-sdk-master-2/Framework",
-					/Users/kalanajayatilake/Downloads/StripeiOS,
-					2,
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ClubContact/ClubContact-Prefix.pch";
 				INFOPLIST_FILE = ClubContact/Info.plist;
@@ -5237,15 +5373,21 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/ClubContact/Flurry",
 				);
-				OTHER_LDFLAGS = "-ObjC";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fidemllc.flashmed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "d25927e1-438c-454f-884a-acfd7c8fb160";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		D02525C01AA02A4200B5FDCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB567D52B76E7A8C54DAF198 /* Pods-ClubContactTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5258,6 +5400,7 @@
 				);
 				INFOPLIST_FILE = ClubContactTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fidemllc.flashmed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubContact.app/ClubContact";
 			};
@@ -5265,6 +5408,7 @@
 		};
 		D02525C11AA02A4200B5FDCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 063CDA3384D846A936C6AF4E /* Pods-ClubContactTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -5273,6 +5417,7 @@
 				);
 				INFOPLIST_FILE = ClubContactTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fidemllc.flashmed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClubContact.app/ClubContact";
 			};
